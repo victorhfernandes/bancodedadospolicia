@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  background-color: #264696;
+  color: #ffffff;
+  height: 32px;
+  gap: 8px;
+  padding: 0px 15px;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content img {
+  margin-bottom: 100px;
+}
+
+.labels {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  color: #1b1b1b;
+  margin-bottom: 32px;
+}
+
+.inputs {
+  all: unset;
+  font-family: "Consolas";
+  padding: 8px;
+  width: 325px;
+  background-color: #ffffff;
+  border-top: 1px solid #dfdfdf;
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #4a4a4a;
+  border-bottom: 1px solid #4a4a4a;
+}
+
+.policia {
+  height: 24px;
+}
+
+.login {
+  border-top: 1px solid #dfdfdf;
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #4a4a4a;
+  border-bottom: 1px solid #4a4a4a;
+  background-color: #04008a;
+  color: #f8f8f8;
+  padding: 8px 12px;
+}
