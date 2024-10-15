@@ -1,6 +1,7 @@
 import "./Home.css";
 import logo from "../../assets/policia.png";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const home = () => {
   const [usuario, setUsuario] = useState("");
@@ -23,13 +24,6 @@ const home = () => {
 
   return (
     <>
-      <div className="header">
-        <img src={logo} alt="" className="policia" />
-        <span className="titulo">
-          BANCO DE DADOS | POLICIA CÍVICO-MILITAR BRASILEIRA{" "}
-          {"{ACESSO RESTRITO}"}
-        </span>
-      </div>
       <div className="content">
         <img src={logo} alt="" />
         <div>

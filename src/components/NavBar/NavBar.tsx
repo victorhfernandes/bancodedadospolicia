@@ -1,15 +1,13 @@
-import { NavLink } from "react-router-dom";
+import logo from "../../assets/policia.png";
 import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <div className="navbar">
-      <NavLink className="navlink" to="/">
-        Home
-      </NavLink>
-      <NavLink className="navlink" to="/about">
-        About
-      </NavLink>
+    <div className="header">
+      <img src={logo} alt="" className="policia" />
+      <span className="titulo">
+        BANCO DE DADOS | POLICIA CÍVICO-MILITAR BRASILEIRA {"{ACESSO RESTRITO}"}
+      </span>
     </div>
   );
 };
