@@ -1,4 +1,72 @@
 .pesquisa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #bdbdbd;
   height: 80px;
+}
+
+.hamburger {
+  margin: 0px 20px;
+}
+
+.buscador-div {
+  display: flex;
+  align-items: center;
+}
+
+.search-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-top: 1px solid #dfdfdf;
+  border-left: 1px solid #dfdfdf;
+  border-bottom: 1px solid #4a4a4a;
+  height: 30px;
+  width: 30px;
+}
+
+.search {
+}
+
+.pcmbr {
+  font-size: 32px;
+}
+
+.buscador {
+  all: unset;
+  background-color: #ffffff;
+  border-top: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+  border-bottom: 1px solid #4a4a4a;
+  height: 30px;
+  width: 390px;
+}
+
+.ir {
+  background-color: #ffffff;
+  border-top: 1px solid #dfdfdf;
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #4a4a4a;
+  border-bottom: 1px solid #4a4a4a;
+  height: 32px;
+  width: 32px;
+  background-color: #bdbdbd;
+}
+
+.ir:active {
+  border-right: 1px solid #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
+  border-top: 1px solid #bdbdbd;
+  border-left: 1px solid #bdbdbd;
+}
+.imagema {
+  display: flex;
+  align-items: center;
+}
+
+.empt {
+  width: 143px;
+  height: 37px;
 }

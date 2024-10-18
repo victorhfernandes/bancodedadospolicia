@@ -36,6 +36,10 @@
   height: 24px;
 }
 
+.loading {
+  width: 100px;
+}
+
 .login {
   border-top: 1px solid #dfdfdf;
   border-left: 1px solid #dfdfdf;
