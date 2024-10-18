@@ -1,0 +1,36 @@
+.bettie-flexsapce {
+  display: flex;
+}
+
+.textos-bettie {
+  display: flex;
+  flex-direction: column;
+}
+
+.containner-bettie {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.resultados-bettie {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.outra-div-bettie {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.title-links-arquivos-bettie {
+  margin-top: 125px;
+}
+
+.links-arquivos-bettie {
+  color: #0000ff;
+  text-decoration: underline;
+}
