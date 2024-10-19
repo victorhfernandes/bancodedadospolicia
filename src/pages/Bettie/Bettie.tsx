@@ -97,7 +97,9 @@ function Bettie() {
         <div className="containner-bettie">
           <div className="resultados-bettie">
             <div className="bettie-flexsapce">
-              <img src={bettie} alt="" />
+              <div>
+                <img src={bettie} alt="" />
+              </div>
               <div className="textos-bettie">
                 <span>
                   Vítima: nome desconhecido/sob codinome <br />
