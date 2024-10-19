@@ -23,17 +23,15 @@ export default function Pesquisa({ is }: Props) {
               <br />
               <div className="dados-resultado">
                 <Link to="/arquivos/bettie-boom-boom" className="link-text">
-                  TJLS - AC - Sob codinome: “Bettie Boom Boom” XXX15990 BR
-                  XXXX-19.12.0540
+                  INQUERITO POLICIAL - INVESTIGAÇÃO | CC XXX15990 BR
+                  XXXX-19.12.0540 - “Bettie Boom Boom”
                 </Link>
 
                 <br />
-                <span className="bold-text">
-                  JURISPRUDÊNCIA | APELAÇÃO CÍVEL
-                </span>
+                <span className="bold-text">L13812 - IP - CC000347LS</span>
                 <br />
                 <span className="ementa-text">
-                  EMENTA: Investigação de desaparecimento. Potencial homicídio.
+                  ASSUNTO: Investigação de desaparecimento. Potencial homicídio.
                   Potencial sequestro. Ação declaratória de morte presumida.
                 </span>
               </div>
