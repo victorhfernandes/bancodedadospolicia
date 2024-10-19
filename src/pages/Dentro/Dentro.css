@@ -50,6 +50,7 @@
   height: 32px;
   width: 32px;
   background-color: #bdbdbd;
+  cursor: pointer;
 }
 
 .ir:active {

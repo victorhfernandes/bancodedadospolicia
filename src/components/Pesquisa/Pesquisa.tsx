@@ -16,11 +16,10 @@ export default function Pesquisa({ is }: Props) {
           <Separator />
           <div className="containner-pesquisa">
             <div className="resultados-pesquisa">
-              <span>
+              <span className="nomenomenome">
                 Foram encontrados <strong>2 resultados</strong> com a
                 palavra-chave: “bettie boom boom”
               </span>
-              <br />
               <div className="dados-resultado">
                 <Link to="/arquivos/bettie-boom-boom" className="link-text">
                   INQUERITO POLICIAL - INVESTIGAÇÃO | CC XXX15990 BR

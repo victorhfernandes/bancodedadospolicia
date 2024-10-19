@@ -25,6 +25,7 @@
   color: #0000ff;
   text-decoration: underline;
   margin: auto;
+  cursor: pointer;
 }
 
 .texto16 {
@@ -81,7 +82,7 @@
 .modal-content {
   margin: 50px auto;
   padding: 20px;
-  width: 80%;
+  width: 60%;
 }
 
 .close {

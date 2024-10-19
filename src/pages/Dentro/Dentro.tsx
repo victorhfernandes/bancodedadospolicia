@@ -6,7 +6,7 @@ import { useState } from "react";
 import Pesquisa from "../../components/Pesquisa/Pesquisa";
 
 const Dentro = () => {
-  const [pesquisa, setPesquisa] = useState("bettie boom boom");
+  const [pesquisa, setPesquisa] = useState("");
   const [loading, setLoading] = useState(false);
   const [bettie, setBettie] = useState(false);
 

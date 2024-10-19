@@ -17,7 +17,7 @@ const home = () => {
       setTimeout(() => {
         navigate("/arquivos");
         setLoading(false);
-      }, 5000);
+      }, 2000);
     } else {
       alert("login errado faz algo?");
     }

@@ -48,6 +48,7 @@
   margin: 0 10px;
   color: #0000ff;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .bold-text {
@@ -56,4 +57,8 @@
 
 .ementa-text {
   font-size: 14px;
+}
+
+.nomenomenome {
+  margin-bottom: 30px;
 }
